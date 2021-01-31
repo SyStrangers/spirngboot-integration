@@ -1,6 +1,6 @@
-package com.stranger.config;
+package com.stranger.redis.config;
 
-import com.stranger.utils.RedisUtils;
+import com.stranger.redis.utils.RedisUtils;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;

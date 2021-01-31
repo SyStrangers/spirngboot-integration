@@ -1,4 +1,4 @@
-package com.stranger.utils;
+package com.stranger.redis.utils;
 
 import org.springframework.data.redis.serializer.RedisSerializer;
 
