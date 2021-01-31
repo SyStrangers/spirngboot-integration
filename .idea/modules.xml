@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/spirngboot-integration.iml" filepath="$PROJECT_DIR$/.idea/spirngboot-integration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
     </modules>
   </component>
 </project>
