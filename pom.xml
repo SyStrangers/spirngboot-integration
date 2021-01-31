@@ -14,6 +14,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.11</java.version>
         <springboot-version>2.2.6.RELEASE</springboot-version>
+        <swagger.veriosn>2.9.2</swagger.veriosn>
     </properties>
 
     <dependencies>
@@ -47,6 +48,16 @@
                 <version>${springboot-version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger.veriosn}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger.veriosn}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
